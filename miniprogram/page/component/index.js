@@ -12,30 +12,10 @@ Page({
   data: {
     list: [
       {
-        id: 'view',
-        name: '视图容器',
-        open: false,
-        pages: ['view', 'scroll-view', 'swiper', 'movable-view', 'cover-view']
-      }, {
-        id: 'content',
-        name: '基础内容',
-        open: false,
-        pages: ['text', 'icon', 'progress', 'rich-text']
-      }, {
-        id: 'form',
-        name: '表单组件',
-        open: false,
-        pages: ['button', 'checkbox', 'form', 'input', 'label', 'picker', 'picker-view', 'radio', 'slider', 'switch', 'textarea', 'editor']
-      }, {
-        id: 'nav',
-        name: '导航',
-        open: false,
-        pages: ['navigator']
-      }, {
         id: 'media',
         name: '媒体组件',
         open: false,
-        pages: ['image', 'video', 'camera', 'live-pusher', 'live-player']
+        pages: ['video', 'live-pusher', 'live-player']
       }, {
         id: 'map',
         name: '地图',
@@ -51,11 +31,6 @@ Page({
         name: '开放能力',
         open: false,
         pages: ['ad', 'open-data', 'web-view']
-      }, {
-        id: 'obstacle-free',
-        name: '无障碍访问',
-        open: false,
-        pages: ['aria-component']
       }
     ],
     theme: 'light'
